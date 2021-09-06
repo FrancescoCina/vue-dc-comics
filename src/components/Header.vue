@@ -8,7 +8,7 @@
         <nav>
           <ul class="col">
             <li v-for="link in links" :key="link.text">
-              <a href="link.url">{{ link.text }}</a>
+              <a :href="link.url">{{ link.text }}</a>
             </li>
           </ul>
         </nav>
@@ -93,6 +93,18 @@ header {
 .logo img {
   max-width: 100%;
   height: auto;
+}
+
+ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
 }
 
 a:hover {
