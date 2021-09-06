@@ -81,10 +81,11 @@ export default {
 
 <style scoped lang="scss">
 header {
-  height: 100px;
+  height: 120px;
 }
 
 .logo {
+  margin: 15px;
   width: 200px;
   height: 100%;
 }
