@@ -28,6 +28,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/_generics.scss";
-@import "@/assets/scss/_utilities.scss";
+@import "@/assets/scss/style.scss";
 </style>

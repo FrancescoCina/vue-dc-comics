@@ -80,6 +80,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/scss/_mixins.scss";
 header {
   height: 120px;
 }
@@ -112,7 +113,6 @@ a:hover {
 }
 
 .col {
-  display: flex;
-  justify-content: center;
+  @include center("horizontal");
 }
 </style>

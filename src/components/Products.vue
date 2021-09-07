@@ -17,6 +17,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/scss/_mixins.scss";
+
 .products {
   background-color: #000;
   height: 150px;
@@ -27,6 +29,7 @@ export default {
 }
 .col {
   height: 100%;
+  @include center("vertical");
   display: flex;
   align-items: center;
 }
