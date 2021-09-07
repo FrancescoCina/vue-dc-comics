@@ -30,7 +30,5 @@ export default {
 .col {
   height: 100%;
   @include center("vertical");
-  display: flex;
-  align-items: center;
 }
 </style>
