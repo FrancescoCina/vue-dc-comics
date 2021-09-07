@@ -54,6 +54,8 @@ export default {
 nav {
   height: 195px;
   background-color: $hero-color;
+  position: relative;
+  top: 0;
 }
 
 .images-container {

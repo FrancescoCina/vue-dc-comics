@@ -1,8 +1,10 @@
 <template>
   <section class="products">
-    <div class="container row">
-      <div class="col">
-        <h2>Content Goes Here</h2>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col h-100">
+          <h2>Content Goes Here</h2>
+        </div>
       </div>
     </div>
   </section>
@@ -16,7 +18,6 @@ export default {
 
 <style scoped lang="scss">
 .products {
-  margin-top: 20px;
   background-color: #000;
   height: 150px;
   h2 {
