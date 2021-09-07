@@ -192,13 +192,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import "@/assets/scss/_mixins.scss";
 footer {
   height: 500px;
   width: 100%;
-  background-image: url("../assets/img/footer-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include background;
 }
 .col {
   flex-basis: 50%;
