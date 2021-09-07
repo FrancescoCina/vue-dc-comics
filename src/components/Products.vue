@@ -18,7 +18,7 @@ export default {
 .products {
   margin-top: 20px;
   background-color: #000;
-  height: 200px;
+  height: 150px;
   h2 {
     color: #fff;
     font-size: 25px;
