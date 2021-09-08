@@ -1,7 +1,13 @@
 <template>
   <section class="products">
-    <div class="container h-100">
-      <!-- row delle cards -->
+    <!-- row della sezione HERO -->
+    <div class="row h-25">
+      <div class="col h-100">
+        <HeroContent></HeroContent>
+      </div>
+    </div>
+    <!-- row delle cards -->
+    <div class="container">
       <div class="row h-100">
         <div class="col h-100">
           <ProductCard :comics="comics"></ProductCard>
@@ -12,11 +18,12 @@
 </template>
 
 <script>
-import ProductCard from "@/components/ProductCard.vue";
+import ProductCard from "../components/ProductCard.vue";
+import HeroContent from "../components/HeroContent.vue";
 
 export default {
   name: "Products",
-  components: { ProductCard },
+  components: { ProductCard, HeroContent },
   data() {
     return {
       comics: [
@@ -122,6 +129,7 @@ export default {
   }
 }
 .col {
+  width: 100%;
   height: 100%;
   @include center("vertical");
 }

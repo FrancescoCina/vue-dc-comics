@@ -18,9 +18,9 @@ export default {
 .comics-container {
   display: flex;
   flex-wrap: wrap;
+  height: 75%;
   .comic-card {
     flex-basis: calc(100% / 6);
-    height: calc(100% / 6);
     padding: 25px;
     figcaption {
       color: #fff;
