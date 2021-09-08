@@ -115,7 +115,7 @@ export default {
 
 .products {
   background-color: #000;
-  height: 500px;
+  height: 1000px;
   h2 {
     color: #fff;
     font-size: 25px;

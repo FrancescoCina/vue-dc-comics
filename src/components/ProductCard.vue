@@ -20,7 +20,17 @@ export default {
   flex-wrap: wrap;
   .comic-card {
     flex-basis: calc(100% / 6);
-    height: 50px;
+    height: calc(100% / 6);
+    padding: 25px;
+    figcaption {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+    img {
+      max-width: 100%;
+      height: 100%;
+    }
   }
 }
 </style>
