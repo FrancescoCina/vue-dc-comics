@@ -1,7 +1,7 @@
 <template>
   <section class="products">
     <!-- row della sezione HERO -->
-    <div class="row h-25">
+    <div class="row h-30">
       <div class="col h-100">
         <HeroContent></HeroContent>
       </div>
@@ -16,7 +16,7 @@
     <!-- row delle cards -->
     <div class="container">
       <div class="row h-100">
-        <div class="col h-100">
+        <div class="col">
           <ProductCard :comics="comics"></ProductCard>
         </div>
       </div>
@@ -141,7 +141,7 @@ export default {
     height: 40px;
     @include center("both");
     position: absolute;
-    top: 230px;
+    top: 278px;
     left: 120px;
     font-size: 18px;
   }
@@ -149,10 +149,10 @@ export default {
     background-color: $hero-color;
     font-size: 17px;
     width: 140px;
-    height: 40px;
+    height: 30px;
     @include center("both");
     position: absolute;
-    bottom: 10px;
+    bottom: 8px;
     left: 50%;
     transform: translateX(-50);
   }
