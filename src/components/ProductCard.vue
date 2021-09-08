@@ -16,6 +16,7 @@ export default {
 
 <style scoped lang="scss">
 .comics-container {
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   height: 75%;

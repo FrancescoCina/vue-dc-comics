@@ -6,6 +6,13 @@
         <HeroContent></HeroContent>
       </div>
     </div>
+    <!-- Bottone CURRENT SERIES -->
+    <div class="current">
+      <h4 class="text-button">Current Series</h4>
+    </div>
+    <div class="load-more">
+      <h6 class="text-button">Load More</h6>
+    </div>
     <!-- row delle cards -->
     <div class="container">
       <div class="row h-100">
@@ -119,15 +126,43 @@ export default {
 
 <style scoped lang="scss">
 @import "@/assets/scss/_mixins.scss";
-
+@import "@/assets/scss/_vars.scss";
 .products {
   background-color: #000;
   height: 1000px;
+  position: relative;
   h2 {
     color: #fff;
     font-size: 25px;
   }
+  .current {
+    background-color: $hero-color;
+    width: 140px;
+    height: 40px;
+    @include center("both");
+    position: absolute;
+    top: 230px;
+    left: 120px;
+    font-size: 18px;
+  }
+  .load-more {
+    background-color: $hero-color;
+    font-size: 17px;
+    width: 140px;
+    height: 40px;
+    @include center("both");
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50);
+  }
 }
+
+.text-button {
+  color: #fff;
+  text-transform: uppercase;
+}
+
 .col {
   width: 100%;
   height: 100%;
